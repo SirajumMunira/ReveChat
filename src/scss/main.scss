@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,900&display=swap');
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  font-display: swap;
+}
+
+//font family
+$font-default: 'Inter', sans-serif;
+
+//color
+$primary-color: #0D9ABF;
+$header-color: #333333;
+$small-text: #8A8A8A;
+$text-color: #1A1A2D;
+$background-color: #F9F9F9;
+
+//font size, weight
+$fs-large: 28px;
+$fs-medium: 16px;
+$fs-small: 14px;
+$fs-xs: 12px;
+
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-Bold: 600;
+
+*{
+  font-family: $font-default;
+}
+
